@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["mullvad_api_wrapper"]
+include-package-data = true
+
+[project]
+name = "mullvad_api_wrapper"
+version = "0.0.1"
+description = 'API calls to api.mullvad.net and am.i.mullvad.net'
+readme = 'README.md'
+requires-python = ">=3.10.9"
+dependencies = [
+    'pydantic',
+    'requests'
+]
