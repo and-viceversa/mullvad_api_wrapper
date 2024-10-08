@@ -3,7 +3,6 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["mullvad_api_wrapper"]
 include-package-data = true
 
 [project]
